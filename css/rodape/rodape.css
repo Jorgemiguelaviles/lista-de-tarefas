@@ -1,5 +1,13 @@
-.rodape{
-  display:flex;
-  flex-wrap: wrap;
-  text-align: center;
-}
+.rodape{background:darkblue;
+       height:auto;
+       width:100%;
+       display: flex;
+       flex-wrap: wrap;
+      justify-content: center;
+        
+      
+       
+       
+       
+       
+      }

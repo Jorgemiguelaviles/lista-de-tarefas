@@ -3,9 +3,9 @@
   background: whitesmoke;
   height:3.4rem;
   width:auto;
-  transition:all 2s
+  transition:all 0.5s
   
 }
 .conteudoPrincipal__criar:hover{
-  background: #555753;
+  background: #babeb6;
 }

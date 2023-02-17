@@ -5,45 +5,54 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="css/reset.css" rel="stylesheet" type="text/css" />
   <link href="css/cabecalho/cabecalho.css" rel="stylesheet" type="text/css" />
-  <link href="css/cabecalho/cabecalho__texto.css" rel="stylesheet" type="text/css" />
   <link href="css/conteudoPrincipal/conteudoPrincipal.css" rel="stylesheet" type="text/css" />
+  <link href="css/conteudoPrincipal/conteudoPrincipal__criar.css" rel="stylesheet" type="text/css" />
   <link href="css/conteudoPrincipal/conteudoPrincipal__texto.css" rel="stylesheet" type="text/css" />
-  <link href="css/conteudoPrincipal/conteudoPrincipal__criar.css" rel="stylesheet" type="text/css" />  
   <link href="css/rodape/rodape.css" rel="stylesheet" type="text/css" />
-  <link href="css/rodape/rodape__github.css" rel="stylesheet" type="text/css" /> 
-  <link href="css/rodape/rodape__linkedin.css" rel="stylesheet" type="text/css" /> 
+  <link href="css/rodape/rodape__github.css" rel="stylesheet" type="text/css" />
+  <link href="css/rodape/rodape__linkedin.css" rel="stylesheet" type="text/css" />
+
+
   
-  
+  <link href="style.css" rel="stylesheet" type="text/css" 
+
+
+
+    
 </head>
 
 <body>
-  <header class=cabecalho>
-    <p>lista de tarefas<p>
-  </header>  
+ <header class=cabecalho>
+   <p>lista de tarefas</p>
+ </header>
 
-  <main class=conteudoPrincipal>
-    <form>
-      <input type="text" class=conteudoPrincipal__texto placeholder="digite a tarefa">
-      <input type="button" value="criar tarefa" class=conteudoPrincipal__criar>
-    </form>
-  </main
 
-  <footer>
-    <a href="#"><img src="img/github.svg" alt="github" class=rodape__github></a>
-    <a href="#"><img src="img/linkedin.svg" alt="linkedin" class=rodape__linkedin></a>
-  </footer>
+
   
-  <script src="js/script.js"></script>
+ <main class="conteudoPrincipal">
+   <form>
+     <input type="text" placeholder="digite a tarefa" class=conteudoPrincipal__texto>
+     <input type="button" value="criar tarefa" class="conteudoPrincipal__criar">
+   </form> 
+ </main>
 
- <!--
+
+
+  
+ <footer class=rodape>
+   <a href=#><img src=img/linkedin.svg class=rodape__linkedin></a></li>
+   <a href=#><img src=img/github.svg  class=rodape__github></a></li>
+ </footer>
+  <script src="script.js"></script>
+
+  <!--
   This script places a badge on your repl's full-browser view back to your repl's cover
   page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
   teal, blue, blurple, magenta, pink!
   -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
 </body>
 
 </html>
