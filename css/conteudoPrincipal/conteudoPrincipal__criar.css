@@ -1,0 +1,11 @@
+.conteudoPrincipal__criar{
+  border:1px solid black;
+  background: whitesmoke;
+  height:3.4rem;
+  width:auto;
+  transition:all 2s
+  
+}
+.conteudoPrincipal__criar:hover{
+  background: #555753;
+}
